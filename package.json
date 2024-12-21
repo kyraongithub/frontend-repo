@@ -12,9 +12,19 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.2.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "firebase": "^11.1.0",
     "next": "15.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.2",
+    "sweetalert2": "^11.15.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
