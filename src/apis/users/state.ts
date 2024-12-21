@@ -19,7 +19,7 @@ const useUsers = () => {
     dispatch(startLoading());
     try {
       const { data } = await GetUsersData();
-      dispatch(setUsers(data.users));
+      dispatch(setUsers(data?.users));
       dispatch(apiSuccess());
     } catch (error) {
       dispatch(apiError(error));
